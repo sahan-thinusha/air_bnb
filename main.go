@@ -44,7 +44,7 @@ func mongoConnect() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	env.MongoDBConnection = client.Database("air_bnb")
+	env.MongoDBConnection = client.Database("sample_airbnb")
 }
 
 func main() {
