@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-func GetAllStudents(c echo.Context) error {
+func GetAllReviews(c echo.Context) error {
 
 	index, e := strconv.Atoi(c.QueryParam("index"))
 	if e != nil {
